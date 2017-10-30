@@ -1,0 +1,56 @@
+
+.soccer_field {
+  background-color: #8cb27c;
+  width: 760px;
+  height: 380px;
+  position: relative;
+}
+
+.white_square{
+  border: 2px solid white;
+  position: relative;
+  padding: 0 0 0 0;
+  top:2%;
+  transform: translateY(-50%);
+  right:-50%;
+  transform: translateX(-50%);
+  width: 98%;
+  height: 95%;
+}
+.arc_right{
+  border: 2px solid white;
+  position: absolute;
+  left: -2px;
+  width: 84px;
+  height: 151px;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.arc_left{
+  border: 2px solid white;
+  position: absolute;
+  right: -2px;
+  width: 84px;
+  height: 151px;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.circle{
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  right: -2px;
+  width: 151px;
+  height: 151px;
+  top:30%;
+  transform: translateY(-50%);
+  right:27%;
+  transform: translateX(-50%);
+}
+
+
+img {
+  width: 5em;
+}
